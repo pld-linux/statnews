@@ -20,7 +20,7 @@ length and frequency, and so on.
 %description -l pl
 Wyci±ga ró¿ne interesuj±ce informacje z grup newsowych. Ten program
 mo¿e byæ u¿yteczny do analizowania grup newsowych pod wzglêdem
-autorów, d³ugo¶ci wiadomo¶ci i czestotliwo¶ci.. i takich tam.
+autorów, d³ugo¶ci wiadomo¶ci i czêstotliwo¶ci.. i takich tam.
 
 %prep
 %setup -q
