@@ -6,7 +6,7 @@ Version:	2.3
 Release:	1
 License:	GPL
 Group:		Networking/Utilities
-Source0:	http://ftp.debian.org/debian/pool/main/s/%{name}/%{name}_%{version}.tar.gz
+Source0:	http://ftp.debian.org/debian/pool/main/s/statnews/%{name}_%{version}.tar.gz
 # Source0-md5:	f8aba0c65c8b806cf4803943e4b2d0d5
 URL:		http://packages.qa.debian.org/s/statnews.html
 BuildArch:	noarch
@@ -20,7 +20,7 @@ length and frequency, and so on.
 %description -l pl
 Wyci±ga ró¿ne interesuj±ce informacje z grup newsowych. Ten program
 mo¿e byæ u¿yteczny do analizowania grup newsowych pod wzglêdem
-autorów, d³ugo¶ci wiadomo¶ci i czêstotliwo¶ci.. i takich tam.
+autorów, d³ugo¶ci wiadomo¶ci, czêstotliwo¶ci itp.
 
 %prep
 %setup -q
