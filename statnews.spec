@@ -9,6 +9,7 @@ Group:		Networking/Utilities
 Source0:	http://ftp.debian.org/debian/pool/main/s/statnews/%{name}_%{version}.tar.gz
 # Source0-md5:	f8aba0c65c8b806cf4803943e4b2d0d5
 URL:		http://packages.qa.debian.org/s/statnews.html
+BuildRequires:	rpm-perlprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
