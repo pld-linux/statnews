@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Extracts some useful statistics out of a newsgroup
-Summary(pl):	Generator statystyk grup newsowych
+Summary(pl.UTF-8):   Generator statystyk grup newsowych
 Name:		statnews
 Version:	2.3
 Release:	1
@@ -18,10 +18,10 @@ Extracts some useful statistics out of a newsgroup. This program may
 be useful to analyze newsgroups with respect to authors, messages
 length and frequency, and so on.
 
-%description -l pl
-Wyci±ga ró¿ne interesuj±ce informacje z grup newsowych. Ten program
-mo¿e byæ u¿yteczny do analizowania grup newsowych pod wzglêdem
-autorów, d³ugo¶ci wiadomo¶ci, czêstotliwo¶ci itp.
+%description -l pl.UTF-8
+WyciÄ…ga rÃ³Å¼ne interesujÄ…ce informacje z grup newsowych. Ten program
+moÅ¼e byÄ‡ uÅ¼yteczny do analizowania grup newsowych pod wzglÄ™dem
+autorÃ³w, dÅ‚ugoÅ›ci wiadomoÅ›ci, czÄ™stotliwoÅ›ci itp.
 
 %prep
 %setup -q
