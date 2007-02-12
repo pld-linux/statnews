@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Extracts some useful statistics out of a newsgroup
-Summary(pl.UTF-8):   Generator statystyk grup newsowych
+Summary(pl.UTF-8):	Generator statystyk grup newsowych
 Name:		statnews
 Version:	2.3
 Release:	1
