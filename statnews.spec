@@ -2,12 +2,12 @@
 Summary:	Extracts some useful statistics out of a newsgroup
 Summary(pl.UTF-8):	Generator statystyk grup newsowych
 Name:		statnews
-Version:	2.3
+Version:	2.4
 Release:	1
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://ftp.debian.org/debian/pool/main/s/statnews/%{name}_%{version}.tar.gz
-# Source0-md5:	f8aba0c65c8b806cf4803943e4b2d0d5
+# Source0-md5:	ef272d9d5fc3e45590b05c06b334dcef
 URL:		http://packages.qa.debian.org/s/statnews.html
 BuildRequires:	rpm-perlprov
 BuildArch:	noarch
@@ -24,7 +24,7 @@ może być użyteczny do analizowania grup newsowych pod względem
 autorów, długości wiadomości, częstotliwości itp.
 
 %prep
-%setup -q
+%setup -q -n %{name}
 
 %build
 %{__make}
